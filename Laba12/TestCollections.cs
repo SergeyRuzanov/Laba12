@@ -135,6 +135,7 @@ namespace Laba12
                 sortedDictString.Add(obj.Key.ToString(), obj.Value);
             }
         }
+
         public void Add(Engineer engineer)
         {
             string engineerString = engineer.BaseWorking.ToString();

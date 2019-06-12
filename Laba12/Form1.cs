@@ -33,7 +33,7 @@ namespace Laba12
             {
                 if (Regex.IsMatch(textBox1.Text, "^[А-Я][а-я]") && Regex.IsMatch(textBox2.Text, "^[А-Я][а-я]"))
                 {
-                    collections.Add(new Engineer(textBox1.Text, textBox2.Text, (Gender)comboBox1.SelectedItem, (Category)comboBox2.SelectedItem));//TODO try
+                    collections.Add(new Engineer(textBox1.Text, textBox2.Text, (Gender)comboBox1.SelectedItem, (Category)comboBox2.SelectedItem));
                     ShowCollections();
                 }
             }
